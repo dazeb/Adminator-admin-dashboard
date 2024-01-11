@@ -1,0 +1,691 @@
+repo_name: dazeb/Adminator-admin-dashboard
+report_id: 589c837ddba9257a1a394b79c44083a8
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-11T19:06:35+00:00'
+requested_by: puikinsh
+provider: github
+branch: rever
+detected_tools_count: 47
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-10 09:13:01.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 2.7.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: ".babelrc"
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard
+  detection_source: Repo Metadata
+- name: Rollbar
+  description: Proactively discover, predict, and remediate errors.
+  website_url: https://rollbar.com/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 8.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 3.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: DataTables
+  description: A plug-in for the jQuery Javascript library
+  website_url: https://datatables.net
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/5693/7730351a5c782c7e25523388bfa8e393_400x400.jpeg
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: FullCalendar
+  description: A full-sized drag &amp; drop JavaScript event calendar
+  website_url: https://fullcalendar.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/5979/default_8b58ea1423b69bf123fae8f58e4887b9b4fdb1b4.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.4
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-plugin-transform-class-properties
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/babel-plugin-transform-class-properties
+  version: 6.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15928/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-plugin-transform-object-rest-spread
+  description: Compile object rest and spread to ES5
+  package_url: https://www.npmjs.com/babel-plugin-transform-object-rest-spread
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15880/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-plugin-transform-runtime
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/babel-plugin-transform-runtime
+  version: 6.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15849/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-polyfill
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/babel-polyfill
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15867/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-preset-env
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/babel-preset-env
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15814/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-preset-stage-0
+  description: Babel preset for stage 0 plugins
+  package_url: https://www.npmjs.com/babel-preset-stage-0
+  version: 6.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15846/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: babel-runtime
+  description: Babel selfContained runtime
+  package_url: https://www.npmjs.com/babel-runtime
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15861/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: case-sensitive-paths-webpack-plugin
+  description: Enforces module path case sensitivity in Webpack
+  package_url: https://www.npmjs.com/case-sensitive-paths-webpack-plugin
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16073/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Krzysztof Piasecki
+  last_updated_on: 2018-02-09 20:03:20.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 12.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: extract-text-webpack-plugin
+  description: Extract text from bundle into a file
+  package_url: https://www.npmjs.com/extract-text-webpack-plugin
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15855/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 1.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+  - name: Regular Expression Denial of Service in moment
+    cve_id: CVE-2017-18214
+    cve_url: https://github.com/advisories/GHSA-446m-mv8f-q348
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.19.3
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: perfect-scrollbar
+  description: Minimalistic but perfect custom scrollbar plugin
+  package_url: https://www.npmjs.com/perfect-scrollbar
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18340/default_a605b2929de4c3bd4460a01b8dc144fde6aa5419.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: postcss-cssnext
+  description: Use tomorrow’s CSS syntax, today
+  package_url: https://www.npmjs.com/postcss-cssnext
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16341/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 2.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 6.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: shx
+  description: Portable Shell Commands for Node
+  package_url: https://www.npmjs.com/shx
+  version: 0.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 0.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: stylelint-config-standard
+  description: Standard shareable config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-standard
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: webpack-dashboard
+  description: A CLI dashboard for webpack dev server
+  package_url: https://www.npmjs.com/webpack-dashboard
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16995/default_32f63a11ae9faad5eff3053ff1a1600fde8a525b.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 2.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/dazeb/Adminator-admin-dashboard/blob/rever/package.json
+  detection_source: package.json
+  last_updated_by: Aigars Silkalns
+  last_updated_on: 2017-11-17 17:39:21.000000000 Z
+  vulnerabilities:
+  - name: Missing Origin Validation in webpack-dev-server
+    cve_id: CVE-2018-14732
+    cve_url: https://github.com/advisories/GHSA-cf66-xwfp-gvc4
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.11
